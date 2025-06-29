@@ -1,4 +1,5 @@
 import Hero from "./ui/Hero/Hero";
+import Informations from "./ui/Informations/Informations";
 import Navbar from "./ui/Navbar/Navbar";
 import ScrollToTopButton from "./ui/ScrollToTopButton";
 
@@ -9,9 +10,10 @@ export default function Home() {
       <header>
         <Navbar/>
       </header>
-      <main className="mx-auto ">
+      <main className="">
         <ScrollToTopButton/>
         <Hero/>
+        <Informations/>
       </main>
     </div>
   );
