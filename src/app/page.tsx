@@ -1,10 +1,12 @@
+import Navbar from "./ui/Navbar/Navbar";
 
 
 export default function Home() {
   return (
     <div className="">
-      <p>hello</p>
-      <h1></h1>
+      <header>
+        <Navbar/>
+      </header>
     </div>
   );
 }

@@ -23,8 +23,8 @@ const luckiestGuy = Luckiest_Guy({
 
 
 export const metadata: Metadata = {
-  title: "GellyBlast",
-  description: "GellyBlast - Terrain de Gelly Ball à Biscarosse",
+  title: "GellyBlast - Terrain de Gelly Ball à Biscarosse",
+  description: "GellyBlast - Terrain de Gelly Ball à Biscarosse - Plage Maguide.",
 };
 
 export default function RootLayout({
