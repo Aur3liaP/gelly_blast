@@ -1,3 +1,4 @@
+import Avantages from "./ui/Avantages/Avantages";
 import Hero from "./ui/Hero/Hero";
 import Informations from "./ui/Informations/Informations";
 import Navbar from "./ui/Navbar/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
         <ScrollToTopButton/>
         <Hero/>
         <Informations/>
+        <Avantages/>
       </main>
     </div>
   );
