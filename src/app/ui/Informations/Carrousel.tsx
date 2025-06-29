@@ -16,7 +16,7 @@ export default function Carrousel() {
   }, [])
   
   return (
-    <div className="relative w-full max-w-2xl">
+    <div className="relative w-4/5 md:w-2/3 max-w-2xl">
      <div className="relative overflow-hidden rounded-lg" style={{ aspectRatio: '16/10' }}>
         {carrouselImages.map((image, index) => (
           <Image
