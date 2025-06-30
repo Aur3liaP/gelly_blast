@@ -9,7 +9,7 @@ export interface AvantagesDatas {
 export const avantagesData : AvantagesDatas[] = [
   {
   titre: "Moins douloureux que le paintball",
-  texte: "Grâce aux billes en gelée d’eau, jouez en toute sécurité.",
+  texte: "Grâce aux billes en gelée d'eau, jouez en toute sécurité.",
   color: "text-background",
   bgColor : "pink"
   },

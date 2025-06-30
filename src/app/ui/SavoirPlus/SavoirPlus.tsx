@@ -13,7 +13,7 @@ export default function SavoirPlus() {
           En savoir plus sur <span className="font-logo">GELLY BLAST</span>
         </h2>
       </div>
-      <div className="flex flex-col md:flex-row w-[90%] mx-auto gap-2 items-center">
+      <div className="flex flex-col md:flex-row w-[90%] mx-auto gap-2 items-center pb-18">
         <Horaires />
         <Image
           src={prix}
