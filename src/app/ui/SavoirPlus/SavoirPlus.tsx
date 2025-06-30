@@ -7,7 +7,7 @@ import prix from "/public/prix.svg";
 
 export default function SavoirPlus() {
   return (
-    <div className="w-full pb-18">
+    <div className="w-full pt-18" id="savoirPlus">
       <div className="w-[95%] mx-auto mb-8">
         <h2 className="text-3xl md:text-5xl tracking-wide" id="avantages">
           En savoir plus sur <span className="font-logo">GELLY BLAST</span>

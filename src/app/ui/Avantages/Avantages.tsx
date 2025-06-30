@@ -3,9 +3,9 @@ import { avantagesData } from "../../lib/AvantageDatas";
 
 export default function Avantages() {
   return (
-    <div className="w-full pb-18">
+    <div className="w-full pt-18" id="avantages">
       <div className="w-[95%] mx-auto mb-8">
-        <h2 className="text-3xl md:text-5xl tracking-wide" id="avantages">
+        <h2 className="text-3xl md:text-5xl tracking-wide" >
           Les Avantages du <span className="font-logo">GELLYBALL</span>
         </h2>
       </div>
