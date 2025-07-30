@@ -4,10 +4,10 @@ import soleil from "/public/soleil.svg";
 export default function HeroTitle() {
   return (
     <>
-      <div className="relative max-w-[90%] text-center mb-[2vh]">
+      <div className="relative max-w-[90%] text-center my-[2vh]">
         <h1
           className="text-pink font-logo text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-5xl
-                       relative z-10 leading-tight "
+                       relative z-10 leading-10 md:leading-tight"
         >
           Le paintball en gelée version famille, fun et plus doux !
           <span className="relative -z-1 inline-block">
@@ -23,7 +23,7 @@ export default function HeroTitle() {
           </span>
         </h1>
       <div className="mb-6 sm:mb-8 md:mb-10 2xl:mb-20">
-        <p className="font-medium text-lg sm:text-xl md:text-2xl lg:text-3xl text-dark-blue mb-1 sm:mb-2">
+        <p className="font-medium text-lg sm:text-xl md:text-2xl lg:text-3xl text-dark-blue my-1 sm:my-2">
           Dès 8 ans – Sans bleus, sans taches – 100 % fun !
         </p>
         <p className=" text-md sm:text-lg md:text-xl lg:text-2xl text-dark-blue">
