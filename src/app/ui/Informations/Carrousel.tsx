@@ -23,6 +23,7 @@ export default function Carrousel() {
             key={index}
             src={image.src}
             alt={image.alt}
+            quality={80}
             fill
             className={`object-cover transition-opacity duration-500 ease-in-out absolute inset-0 ${
               index === currentIndex ? 'opacity-100' : 'opacity-0'

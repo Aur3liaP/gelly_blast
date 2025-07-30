@@ -26,7 +26,7 @@ export default function HeroTitle() {
         <p className="font-medium text-lg sm:text-xl md:text-2xl lg:text-3xl text-dark-blue mb-1 sm:mb-2">
           Dès 8 ans – Sans bleus, sans taches – 100 % fun !
         </p>
-        <p className="font-light text-md sm:text-lg md:text-xl lg:text-2xl text-dark-blue">
+        <p className=" text-md sm:text-lg md:text-xl lg:text-2xl text-dark-blue">
           Plage Maguide à Biscarrosse
         </p>
       </div>

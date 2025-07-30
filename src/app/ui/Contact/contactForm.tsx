@@ -151,7 +151,7 @@ export default function ContactForm() {
           <button
             type="reset"
             onClick={handleReset}
-            className="px-4 py-2 text-gray-300 cursor-pointer"
+            className="px-4 py-2 text-gray-500 cursor-pointer"
           >
             {" "}
             Reinitialiser
