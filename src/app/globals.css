@@ -21,6 +21,7 @@
   --color-yellow: var(--yellow);
   --color-pink: var(--pink);
   --color-water-blue: var(--water-blue);
+  --breakpoint-2xs: 321px;
 }
 
 body {
