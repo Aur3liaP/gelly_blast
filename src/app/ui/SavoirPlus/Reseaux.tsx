@@ -1,6 +1,6 @@
 import Image from "next/image";
 import facebook from "/public/facebook.png";
-import insta from "/public/insta.png";
+import insta from "/public/Insta.png";
 
 export default function Reseaux() {
   return (
