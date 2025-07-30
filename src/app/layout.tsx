@@ -96,6 +96,52 @@ export default function RootLayout({
       <head>
         <link rel="preload" as="image" href="/Logo_HD 1.png"/>
         <link rel="preload" as="image" href="/Carrousel/Carrousel1.png"/>
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+        <link rel="dns-prefetch" href="//maps.googleapis.com"/>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "GellyBlast",
+              "description": "Paintball en gelée pour toute la famille dès 8 ans",
+              "image": "https://www.gellyblast.fr/Logo_HD 1.png",
+              "url": "https://www.gellyblast.fr",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Chemin de Maguide",
+                "addressLocality": "Biscarrosse",
+                "postalCode": "40600",
+                "addressCountry": "FR",
+                "addressRegion": "Nouvelle-Aquitaine"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 44.4944,
+                "longitude": -1.2472
+              },
+              "priceRange": "€",
+              "servesCuisine": "Entertainment",
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Activités GellyBall",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Session GellyBall",
+                      "description": "Paintball en gelée sans douleur pour toute la famille"
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+        />
       </head>
       <body
         className={`${montserrat.variable} ${bangers.variable} ${luckiestGuy.variable} antialiased`}
