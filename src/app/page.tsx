@@ -1,5 +1,6 @@
 import Avantages from "./ui/Avantages/Avantages";
 import Contact from "./ui/Contact/contact";
+import Footer from "./ui/Footer/footer";
 import Hero from "./ui/Hero/Hero";
 import Informations from "./ui/Informations/Informations";
 import Navbar from "./ui/Navbar/Navbar";
@@ -21,6 +22,7 @@ export default function Home() {
         <SavoirPlus/>
         <Contact/>
       </main>
+      <Footer/>
     </div>
   );
 }
