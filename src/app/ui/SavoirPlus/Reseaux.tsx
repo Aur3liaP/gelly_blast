@@ -4,7 +4,7 @@ import insta from "/public/insta.png";
 
 export default function Reseaux() {
   return (
-    <div className="w-fit max-w-[90%] mx-auto bg-light-blue p-4 flex items-center gap-8 ">
+    <div className="w-fit max-w-[90%] mx-auto bg-light-blue p-4 flex items-center gap-8 rounded-sm">
       <div>
         <p className="font-medium text-xl mb-4">
           Retrouvez nous sur nos réseaux :
@@ -23,7 +23,7 @@ export default function Reseaux() {
             alt="Logo Instagram"
             width={85}
             height={85}
-            className="cursor-pointer"
+            className="cursor-pointer hover:scale-105 transition-transform"
           />
         </a>
         <a
@@ -36,7 +36,7 @@ export default function Reseaux() {
             alt="Logo Facebook"
             width={85}
             height={85}
-            className="cursor-pointer"
+            className="cursor-pointer hover:scale-105 transition-transform"
           />
         </a>
       </div>
