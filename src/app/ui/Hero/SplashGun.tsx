@@ -1,7 +1,7 @@
 import Image from "next/image";
 import tache2 from "/public/tache2.svg";
 import tache1 from "/public/tache1.svg";
-import gun from "/public/gun.svg";
+import gun from "/public/gun.png";
 
 export default function SplashGun() {
   return (

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Bangers, Luckiest_Guy, Montserrat } from "next/font/google";
 import "./globals.css";
 
-
 const montserrat = Montserrat({
   variable: "--font-police",
   subsets: ["latin"],
@@ -10,13 +9,13 @@ const montserrat = Montserrat({
 
 const bangers = Bangers({
   variable: "--font-title",
-  weight:'400',
+  weight: "400",
   subsets: ["latin"],
 });
 
 const luckiestGuy = Luckiest_Guy({
   variable: "--font-logo",
-  weight:'400',
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -34,6 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="preload" as="image" href="/Logo_HD 1.png"/>
+      </head>
       <body
         className={`${montserrat.variable} ${bangers.variable} ${luckiestGuy.variable} antialiased`}
       >

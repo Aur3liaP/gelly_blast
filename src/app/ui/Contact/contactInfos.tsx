@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "/public/Logo_HD 1.svg";
+import logo from "/public/Logo_HD 1.png";
 
 export default function ContactInfos() {
   return (
