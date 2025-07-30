@@ -5,7 +5,7 @@ import insta from "/public/insta.png";
 export default function Reseaux() {
   return (
     <div className="w-fit max-w-[90%] mx-auto bg-light-blue p-4 flex items-center gap-8 rounded-sm">
-      <div>
+      <div className="text-center">
         <p className="font-medium text-xl mb-4">
           Retrouvez nous sur nos réseaux :
         </p>
