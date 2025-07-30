@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "/public/Logo_HD 1.svg";
+import logo from "/public/Logo_HD 1.png";
 import SplashGun from "./SplashGun";
 import HeroTitle from "./HeroTitle";
 import SplashRight from "/public/splash-icon 2.svg";

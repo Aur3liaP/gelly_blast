@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Menu from "./Menu";
 import { navLinks } from "../../lib/NavbarLinks";
-import logo from '../../../../public/Logo_HD 1.svg'
+import logo from '../../../../public/Logo_HD 1.png'
 import Image from "next/image";
 
 export default function Navbar() {
