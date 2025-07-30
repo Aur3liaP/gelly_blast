@@ -15,7 +15,7 @@ export default function Horaires() {
           <div className="bg-gray-50/70 p-2 pl-4 rounded-lg border-l-3">
             <h4 className="font-medium text-xl pb-2">Juillet à Août</h4>
             <p className="font-medium">
-              Du mercredi au dimanche :{" "}
+              Du mardi au dimanche :{" "}
               <span className="text-pink">11h - 19h</span>
             </p>
           </div>
