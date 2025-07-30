@@ -1,6 +1,4 @@
 import Image from "next/image";
-import facebook from "/public/facebook.png";
-import insta from "/public/Insta.png";
 
 export default function Reseaux() {
   return (
@@ -19,7 +17,7 @@ export default function Reseaux() {
           rel="noopener"
         >
           <Image
-            src={insta}
+            src="/Insta.png"
             alt="Logo Instagram"
             width={85}
             height={85}
@@ -32,7 +30,7 @@ export default function Reseaux() {
           rel="noopener"
         >
           <Image
-            src={facebook}
+            src="/facebook.png"
             alt="Logo Facebook"
             width={85}
             height={85}
