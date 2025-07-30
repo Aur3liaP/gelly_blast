@@ -24,7 +24,7 @@ export default function Contact() {
 
       </div>
       <div className="w-[90%] mx-auto pt-4 flex flex-col md:flex-row justify-around items-center gap-8 md:gap-4">
-        <ContactInfos /> {/* <--done--> */}
+        <ContactInfos />
         <ContactForm />
       </div>
     </div>
