@@ -19,28 +19,42 @@ const luckiestGuy = Luckiest_Guy({
   subsets: ["latin"],
 });
 
-
-
 export const metadata: Metadata = {
-  title: "GellyBlast - Paintball en Gelée à Biscarrosse | Activité Groupe et Famille dès 8 ans",
-  description: "Découvrez le GellyBall à Biscarrosse ! Paintball en gelée sans douleur, sans taches, pour toute la famille dès 8 ans. Plage Maguide à Biscarosse.",
-  
+  title:
+    "GellyBlast - Paintball en Gelée à Biscarrosse | Activité Groupe et Famille dès 8 ans",
+  description:
+    "Découvrez le GellyBall à Biscarrosse ! Paintball en gelée sans douleur, sans taches, pour toute la famille dès 8 ans. Plage Maguide à Biscarosse.",
+
   keywords: [
-    "GellyBall", "Jellyball", "paintball gelée", "Biscarrosse", "activité famille", 
-    "loisir enfant", "enfants", "plage Maguide", "Landes", "paintball sans douleur", 
-    "activité 8 ans", "gel ball", "anniversaire enfant", "séminaire entreprise", "paintball", "Aquapark Biscarosse"
+    "GellyBall",
+    "Jellyball",
+    "paintball gelée",
+    "Biscarrosse",
+    "activité famille",
+    "loisir enfant",
+    "enfants",
+    "plage Maguide",
+    "Landes",
+    "paintball sans douleur",
+    "activité 8 ans",
+    "gel ball",
+    "anniversaire enfant",
+    "séminaire entreprise",
+    "paintball",
+    "Aquapark Biscarosse",
   ],
-  
+
   other: {
     "geo.region": "FR-NAQ",
     "geo.placename": "Biscarrosse",
-    "geo.position": "44.4944;-1.2472"
+    "geo.position": "44.4944;-1.2472",
   },
-  
+
   // Open Graph pour les réseaux sociaux
   openGraph: {
     title: "GellyBlast - Paintball en Gelée à Biscarrosse",
-    description: "Paintball en gelée sans douleur ni taches ! Activité groupe et famille dès 8 ans sur la plage Maguide à Biscarrosse.",
+    description:
+      "Paintball en gelée sans douleur ni taches ! Activité groupe et famille dès 8 ans sur la plage Maguide à Biscarrosse.",
     url: "https://www.gellyblast.fr",
     siteName: "GellyBlast",
     locale: "fr_FR",
@@ -50,31 +64,32 @@ export const metadata: Metadata = {
         url: "/Facebook-Card.png",
         width: 1200,
         height: 630,
-        alt: "GellyBlast - Paintball en gelée famille à Biscarrosse"
-      }
-    ]
+        alt: "GellyBlast - Paintball en gelée famille à Biscarrosse",
+      },
+    ],
   },
-  
+
   // Twitter Card
   twitter: {
     card: "summary_large_image",
     title: "GellyBlast - Paintball en Gelée à Biscarrosse",
-    description: "Paintball en gelée sans douleur ! Activité famille dès 8 ans - Plage Maguide",
+    description:
+      "Paintball en gelée sans douleur ! Activité famille dès 8 ans - Plage Maguide",
     images: [
-            {
+      {
         url: "/Twitter-Card.png",
         width: 1200,
         height: 600,
-        alt: "GellyBlast - Paintball en gelée famille à Biscarrosse"
-      }
-    ]
+        alt: "GellyBlast - Paintball en gelée famille à Biscarrosse",
+      },
+    ],
   },
-  
+
   // Informations structurées
   alternates: {
-    canonical: "https://www.gellyblast.fr"
+    canonical: "https://www.gellyblast.fr",
   },
-  
+
   // Robots
   robots: {
     index: true,
@@ -87,7 +102,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    category: "entertainment",
+  category: "entertainment",
   classification: "Activité de loisir famille",
 };
 
@@ -99,11 +114,19 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="preload" as="image" href="/Logo_HD 1.png"/>
-        <link rel="preload" as="image" href="/Carrousel/Carrousel1.png"/>
+        <link rel="preload" as="image" href="/Logo_HD 1.png" />
+        <link rel="preload" as="image" href="/Carrousel/Carrousel1.png" />
 
-        <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
-        <link rel="dns-prefetch" href="//maps.googleapis.com"/>
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self' 'unsafe-inline';
+            font-src 'self';
+            img-src 'self' data:;
+            connect-src 'self' https://api.resend.com;"
+        />
 
         <script
           type="application/ld+json"
@@ -111,39 +134,40 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "GellyBlast",
-              "description": "Paintball en gelée pour toute la famille dès 8 ans",
-              "image": "https://www.gellyblast.fr/Logo_HD 1.png",
-              "url": "https://www.gellyblast.fr",
-              "address": {
+              name: "GellyBlast",
+              description: "Paintball en gelée pour toute la famille dès 8 ans",
+              image: "https://www.gellyblast.fr/Logo_HD 1.png",
+              url: "https://www.gellyblast.fr",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "Chemin de Maguide",
-                "addressLocality": "Biscarrosse",
-                "postalCode": "40600",
-                "addressCountry": "FR",
-                "addressRegion": "Nouvelle-Aquitaine"
+                streetAddress: "Chemin de Maguide",
+                addressLocality: "Biscarrosse",
+                postalCode: "40600",
+                addressCountry: "FR",
+                addressRegion: "Nouvelle-Aquitaine",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 44.4944,
-                "longitude": -1.2472
+                latitude: 44.4944,
+                longitude: -1.2472,
               },
-              "priceRange": "€",
-              "hasOfferCatalog": {
+              priceRange: "€",
+              hasOfferCatalog: {
                 "@type": "OfferCatalog",
-                "name": "Activités GellyBall",
-                "itemListElement": [
+                name: "Activités GellyBall",
+                itemListElement: [
                   {
                     "@type": "Offer",
-                    "itemOffered": {
+                    itemOffered: {
                       "@type": "Service",
-                      "name": "Session GellyBall",
-                      "description": "Paintball en gelée sans douleur pour toute la famille"
-                    }
-                  }
-                ]
-              }
-            })
+                      name: "Session GellyBall",
+                      description:
+                        "Paintball en gelée sans douleur pour toute la famille",
+                    },
+                  },
+                ],
+              },
+            }),
           }}
         />
       </head>
