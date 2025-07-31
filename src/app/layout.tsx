@@ -119,7 +119,7 @@ export default function RootLayout({
           httpEquiv="Content-Security-Policy"
           content="
             default-src 'self';
-            script-src 'self';
+            script-src 'self' 'unsafe-inline';
             style-src 'self' 'unsafe-inline';
             font-src 'self';
             img-src 'self' data:;
