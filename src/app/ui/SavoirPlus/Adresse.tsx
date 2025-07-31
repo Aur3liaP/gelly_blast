@@ -18,8 +18,9 @@ export default function Adresse() {
           className="relative w-full max-w-[288px] aspect-video group"
         >
           <Image
-            src="/maps.png"
+            src="/maps1.png"
             alt="Localisation GellyBlast"
+            sizes="(max-width: 768px) 100vw, 50vw"
             fill
             className="rounded-md object-cover"
           />

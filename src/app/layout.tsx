@@ -114,9 +114,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="preload" as="image" href="/Logo_HD 1.png" />
-        <link rel="preload" as="image" href="/Carrousel/Carrousel1.png" />
-
+        {/* en dev : script-src 'self' 'unsafe-eval' 'unsafe-inline'; */}
         <meta
           httpEquiv="Content-Security-Policy"
           content="

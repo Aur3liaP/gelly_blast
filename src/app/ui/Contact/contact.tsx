@@ -19,7 +19,7 @@ export default function Contact() {
           alt="ligne decorative"
           width={60}
           height={40}
-          className="absolute translate-y-7 sm:translate-y-10 translate-x-44 sm:translate-x-68 sm:w-[100px]"
+          className="absolute translate-y-7 sm:translate-y-10 translate-x-44 sm:translate-x-68 w-[60px] sm:w-[100px] h-auto"
         />
 
       </div>
