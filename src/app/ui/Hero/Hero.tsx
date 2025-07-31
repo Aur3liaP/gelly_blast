@@ -13,6 +13,8 @@ export default function Hero() {
         alt="Logo GellyBlast"
         width={230}
         height={230}
+        priority
+        fetchPriority="high"
         className="w-40 sm:w-48 md:w-56 lg:w-60 xl:w-72 2xl:w-80 mt-20
                    "
       />

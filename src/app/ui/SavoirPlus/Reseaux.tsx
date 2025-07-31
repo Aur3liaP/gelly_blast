@@ -21,7 +21,7 @@ export default function Reseaux() {
             alt="Logo Instagram"
             width={85}
             height={85}
-            className="cursor-pointer hover:scale-105 transition-transform"
+            className="cursor-pointer hover:scale-105 transition-transform h-auto"
           />
         </a>
         <a
@@ -34,7 +34,7 @@ export default function Reseaux() {
             alt="Logo Facebook"
             width={85}
             height={85}
-            className="cursor-pointer hover:scale-105 transition-transform"
+            className="cursor-pointer hover:scale-105 transition-transform h-auto"
           />
         </a>
       </div>

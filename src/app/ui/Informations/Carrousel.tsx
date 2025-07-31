@@ -23,7 +23,8 @@ export default function Carrousel() {
             key={index}
             src={image.src}
             alt={image.alt}
-            quality={80}
+            quality={70}
+            sizes="(max-width: 768px) 100vw, 50vw"
             fill
             className={`object-cover transition-opacity duration-500 ease-in-out absolute inset-0 ${
               index === currentIndex ? 'opacity-100' : 'opacity-0'
@@ -34,12 +35,12 @@ export default function Carrousel() {
       </div>
     
       
-      <div className="flex justify-center mt-2 gap-2">
+      <div className="flex justify-center mt-2 gap-3">
         {carrouselImages.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${
+            className={`w-4 h-4 rounded-full cursor-pointer transition-colors duration-300 ease-in-out ${
               index === currentIndex ? 'bg-pink' : 'bg-gray-300 hover:bg-gray-400'
             }`}
             aria-label={`Aller à l'image ${index + 1}`}
