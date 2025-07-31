@@ -8,7 +8,7 @@ export default function Adresse() {
         <p>
           Chemin de Maguide, 40600 BISCAROSSE
           <br />
-          (À 2 pas de l&apos;Aquapark Biscarosse)
+          (À 2 pas de l&apos;Aquapark Biscarosse, dans les Landes)
         </p>
 
         <a

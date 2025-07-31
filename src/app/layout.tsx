@@ -22,17 +22,15 @@ const luckiestGuy = Luckiest_Guy({
 
 
 export const metadata: Metadata = {
-  title: "GellyBlast - Paintball en Gelée à Biscarrosse | Activité Famille dès 8 ans",
-  description: "Découvrez le GellyBall à Biscarrosse ! Paintball en gelée sans douleur, sans taches, pour toute la famille dès 8 ans. Plage Maguide - Réservations ouvertes.",
+  title: "GellyBlast - Paintball en Gelée à Biscarrosse | Activité Groupe et Famille dès 8 ans",
+  description: "Découvrez le GellyBall à Biscarrosse ! Paintball en gelée sans douleur, sans taches, pour toute la famille dès 8 ans. Plage Maguide à Biscarosse.",
   
-  // Mots-clés pour le référencement local
   keywords: [
-    "GellyBall", "paintball gelée", "Biscarrosse", "activité famille", 
-    "loisir enfant", "plage Maguide", "Landes", "paintball sans douleur", 
-    "activité 8 ans", "gel ball", "anniversaire enfant", "séminaire entreprise"
+    "GellyBall", "Jellyball", "paintball gelée", "Biscarrosse", "activité famille", 
+    "loisir enfant", "enfants", "plage Maguide", "Landes", "paintball sans douleur", 
+    "activité 8 ans", "gel ball", "anniversaire enfant", "séminaire entreprise", "paintball", "Aquapark Biscarosse"
   ],
   
-  // Informations géographiques
   other: {
     "geo.region": "FR-NAQ",
     "geo.placename": "Biscarrosse",
@@ -42,14 +40,14 @@ export const metadata: Metadata = {
   // Open Graph pour les réseaux sociaux
   openGraph: {
     title: "GellyBlast - Paintball en Gelée à Biscarrosse",
-    description: "Paintball en gelée sans douleur ni taches ! Activité famille dès 8 ans sur la plage Maguide à Biscarrosse.",
+    description: "Paintball en gelée sans douleur ni taches ! Activité groupe et famille dès 8 ans sur la plage Maguide à Biscarrosse.",
     url: "https://www.gellyblast.fr",
     siteName: "GellyBlast",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg", // À créer : 1200x630px
+        url: "/Facebook-Card.png",
         width: 1200,
         height: 630,
         alt: "GellyBlast - Paintball en gelée famille à Biscarrosse"
@@ -62,7 +60,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GellyBlast - Paintball en Gelée à Biscarrosse",
     description: "Paintball en gelée sans douleur ! Activité famille dès 8 ans - Plage Maguide",
-    images: ["/twitter-image.jpg"] // 1200x600px
+    images: [
+            {
+        url: "/Twitter-Card.png",
+        width: 1200,
+        height: 600,
+        alt: "GellyBlast - Paintball en gelée famille à Biscarrosse"
+      }
+    ]
   },
   
   // Informations structurées
@@ -124,7 +129,6 @@ export default function RootLayout({
                 "longitude": -1.2472
               },
               "priceRange": "€",
-              "servesCuisine": "Entertainment",
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "Activités GellyBall",
