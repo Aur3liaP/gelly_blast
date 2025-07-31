@@ -134,7 +134,7 @@ export default function ContactForm() {
         generateCaptcha();
       } else {
         const errorData = await response.json().catch(() => null);
-        setInfoMessage(errorData?.message || "Erreur lors de l'envoi du message.");
+        setInfoMessage(errorData?.message || errorData?.error || "Erreur lors de l'envoi du message.");
         setInfoType("error");
       }
     } catch (error) {
@@ -254,6 +254,7 @@ export default function ContactForm() {
           <textarea
             id="message"
             name="message"
+            placeholder="Laissez-nous votre message ici !"
             required
             maxLength={1000}
             minLength={10}
