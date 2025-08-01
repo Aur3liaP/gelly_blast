@@ -6,9 +6,9 @@ export default function Adresse() {
       <h3 className="pb-6 font-title text-3xl">Adresse :</h3>
       <div className="flex gap-4 flex-col lg:flex-row justify-between pb-4">
         <p>
-          Chemin de Maguide, 40600 BISCAROSSE
+          Chemin de Maguide, 40600 BISCARROSSE
           <br />
-          (À 2 pas de l&apos;Aquapark Biscarosse, dans les Landes)
+          (À 2 pas de l&apos;Aquapark Biscarrosse, dans les Landes)
         </p>
 
         <a
