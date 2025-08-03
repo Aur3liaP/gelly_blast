@@ -114,6 +114,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
+        <link rel="icon" href="./favicon.ico"></link>
         {/* en dev : script-src 'self' 'unsafe-eval' 'unsafe-inline'; */}
         <meta
           httpEquiv="Content-Security-Policy"
