@@ -1,5 +1,6 @@
 import Avantages from "./ui/Avantages/Avantages";
 import Contact from "./ui/Contact/contact";
+import EndModal from "./ui/EndModal";
 import Footer from "./ui/Footer/footer";
 import Hero from "./ui/Hero/Hero";
 import Informations from "./ui/Informations/Informations";
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar/>
       </header>
       <main className="">
+        <EndModal />
         <ScrollToTopButton/>
         <Hero/>
         <Informations/>
